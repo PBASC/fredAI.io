@@ -8,7 +8,7 @@ import os
 # ... other imports ...
 
 app = Flask(__name__)
-app.secret_key = os.getenv("SECRET_KEY") # Get from environment variable
+app.secret_key = os.getenv("SECRET_KEY") # 89c52de58b8bcddb185bd0494f6aa3c7
 
 
 FAQ_JSON = 'faq.json'
